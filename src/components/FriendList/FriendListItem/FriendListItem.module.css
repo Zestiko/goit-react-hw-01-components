@@ -11,7 +11,8 @@
     gap: 10px;
     border: 1px solid black;
     align-items: center;
-    background-color: #ccc;
+    background-color: #eee;
+    border-radius: 25px;
 }
 
 .true {

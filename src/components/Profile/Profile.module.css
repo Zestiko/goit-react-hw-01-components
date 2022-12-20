@@ -1,7 +1,6 @@
 .profile {
-  border: 1px solid yellowgreen;
-  background-color: #ccc;
-
+  width: 50%;
+  margin: 0 auto;
 }
 .description{
   margin: 0 auto;
