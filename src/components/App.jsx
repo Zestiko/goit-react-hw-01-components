@@ -2,7 +2,6 @@ import { Profile } from 'components/Profile/Profile';
 import user from '../assets/user.json'
 import { Statistics } from 'components/Statistics/Statistics';
 import data from '../assets/data.json'
-import { FriendListItem } from './FriendList/FriendListItem';
 import { FriendList } from './FriendList/FriendList';
 import friends from '../assets/friends.json';
 
