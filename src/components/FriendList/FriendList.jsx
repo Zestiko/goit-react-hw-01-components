@@ -1,5 +1,9 @@
-<li class="item">
-  <span class="status"></span>
-  <img class="avatar" src="" alt="User avatar" width="48" />
-  <p class="name"></p>
-</li>
+import { FriendListItem } from "./FriendListItem";
+import css from "./FriendList.module.css"
+import friends from '../../assets/friends.json'
+
+export const FriendList = ({avatar, name, isOnline, id}) => {
+    return <ul className={css.FriendList}>
+        <FriendListItem avatar={avatar} name={name} isOnline={isOnline} key={id} />
+    </ul>
+}
